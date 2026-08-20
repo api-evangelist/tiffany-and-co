@@ -1,0 +1,33 @@
+aid: tiffany-and-co
+url: https://raw.githubusercontent.com/api-evangelist/tiffany-and-co/refs/heads/main/apis.yml
+name: Tiffany & Co.
+type: Index
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/tiffany-and-co.png
+tags:
+  - Luxury
+  - Retail
+  - Jewelry
+  - Fortune 1000
+description: 'An iconic American luxury jewelry and specialty retailer known for its diamond engagement rings and signature blue boxes. A subsidiary of LVMH operating flagship stores and boutiques in major cities around the world.'
+created: '2026-05-05'
+modified: '2026-05-05'
+specificationVersion: '0.23'
+apis: []
+common:
+  - type: DomainSecurity
+    url: security/tiffany-and-co-domain-security.yml
+  - type: Website
+    url: https://www.tiffany.com/
+  - url: https://press.tiffany.com/feed
+    type: Blog
